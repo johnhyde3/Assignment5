@@ -21,7 +21,7 @@ name = input("Enter the student's name: ")
 if name in students:
         print(f"{name}'s marks: {students[name]}")
 else:
-        print(f"Student '{name}' not found in the records.")
+        print(f"Student '{name}' not found in the  exam records.")
 
 '''creates a list of numbers from 1 to 10.
 2.   Extracts the first five elements from the list.
@@ -29,7 +29,7 @@ else:
 4.   Prints both the extracted list and the reversed list'''
 
 # Step 1: Create a list of numbers from 1 to 10
-numbers = list(range(1, 11))
+numbers = [1,2,3,4,5,6,7,8,9,10]
 
 # Step 2: Extract the first five elements
 first_five = numbers[:5]
